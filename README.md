@@ -22,7 +22,7 @@ Set your spreadsheet project id before using this extension. You can get `SheetI
 
 `sheetNames` it's return the list of sheet names.\
 `gidIds` it's return the list of gid ids.\
-`length` it's return the size of `sheetNames` list.\
+`length` it's return the size of sheet names list.\
 `loadTime` it's return the data loading ⌚ time in milliseconds.
 
 ## Total Rows
