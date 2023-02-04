@@ -94,8 +94,41 @@ Using this function you can get filtered column values from any specific sheet.
 `columnName` it's return the given name of column.\
 `keyword` it's return the given keyword.\
 `values` it's return the filtered values as list.\
-`positions` it's the positions of values from given column.\
+`positions` it's the original positions of filtered values.\
 `length` it's return the size of values as integer.
+
+## Advance Search
+Using this function you can get filtered values from one specific column by other column. Watch tutorial 📹 videos for better understanding.
+
+![image](https://user-images.githubusercontent.com/75406851/216779233-8932a635-cc27-4986-a839-01b76d0ddfd4.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.\
+`byColumn` Enter that column name where you want to make 🔎 search.\
+`keyword` Enter keyword to 🔎 search in given column.\
+`fromColumn` Enter that column name from where you want to pick values during search.
+
+![image](https://user-images.githubusercontent.com/75406851/216779431-e19269c2-91f8-42d9-bbe5-d01acfbc5d46.png)
+
+`sheetName` it's return the given name of sheet.\
+`byColumn` it's return that given by column name.\
+`keyword` it's return the given keyword.\
+`fromColumn` it's return that given from column name.
+`values` it's return the filtered values as list.\
+`positions` it's the original positions of filtered values.\
+`length` it's return the size of values as integer.
+
+## Get Column Names
+Using this function you can get all column names from any specific sheet.
+
+![image](https://user-images.githubusercontent.com/75406851/216779573-fe850f4b-e08e-4227-986f-5cdf9e1654ee.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.
+
+![image](https://user-images.githubusercontent.com/75406851/216779622-59e1d3c1-dbab-438f-b1ca-bdc3650b6805.png)
+
+`sheetName` it's return the given name of sheet.\
+`columnNames` it's return the column names as list.\
+`length` it's return the size of column names as integer.
 
 ## More extensions
 
