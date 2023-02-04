@@ -48,6 +48,55 @@ Using this function you can get column values from any specific sheet.
 `values` it's return the values as list from given column.\
 `length` it's return the values size as integer.
 
+## Get Cell
+Using this function you can get cell value from any specific sheet.
+
+![image](https://user-images.githubusercontent.com/75406851/216778616-2944b435-1680-458d-993c-3eee9806e989.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.\
+`columnName`  Enter the name of column to get value.\
+`rowNumber` Enter the row number to get value.
+
+![image](https://user-images.githubusercontent.com/75406851/216778686-29e46966-15ad-4169-a172-012917605c43.png)
+
+`sheetName` it's return the given name of sheet.\
+`columnName` it's return the given name of column.\
+`rowNumber` it's return the given row number.\
+`value` it's return the value of cell.
+
+## Get Row
+Using this function you can get row values from any specific sheet.
+
+![image](https://user-images.githubusercontent.com/75406851/216778769-b8ea2d2d-8e4f-4216-9a61-f716f4e8c99e.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.\
+`rowNumber` Enter the row number to get values.
+
+![image](https://user-images.githubusercontent.com/75406851/216778824-ca84589a-2260-4376-842d-620f30ef77b4.png)
+
+`sheetName` it's return the given name of sheet.\
+`rowNumber` it's return the given row number.\
+`values` it's return the values from row.\
+`columnNames` it's return the column names for row values.
+
+## Search
+Using this function you can get filtered column values from any specific sheet.
+
+![image](https://user-images.githubusercontent.com/75406851/216778947-b79939a7-e5ce-4680-aa09-0ff13331adce.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.\
+`columnName`  Enter the name of column to get values.\
+`keyword` Enter keyword to 🔎 search in given column.
+
+![image](https://user-images.githubusercontent.com/75406851/216779059-1a11c20a-1fe1-4c05-ba73-194541d0ce1a.png)
+
+`sheetName` it's return the given name of sheet.\
+`columnName` it's return the given name of column.\
+`keyword` it's return the given keyword.\
+`values` it's return the filtered values as list.\
+`positions` it's the positions of values from given column.\
+`length` it's return the size of values as integer.
+
 ## More extensions
 
 <a href="https://github.com/jewelshkjony?tab=repositories">See more extensions</a>
