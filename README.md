@@ -16,7 +16,7 @@ Set your spreadsheet project id before using this extension. You can get `SheetI
 </table>
 
 ## Get All Sheets
-⚠ This is mandatory to `GetAllSheets` before using any other functions. When `GotAllSheets`event will be triggered it's means the extension is ready to work.
+⚠ This is mandatory to `GetAllSheets` before using any other functions. When `GotAllSheets` event will be triggered it's means the extension is ready to work.
 
 ![image](https://user-images.githubusercontent.com/75406851/216777432-3136b9ce-5393-4bfa-9df0-a61b1c82f343.png)
 
@@ -26,9 +26,27 @@ Set your spreadsheet project id before using this extension. You can get `SheetI
 `loadTime` it's return the data loading ⌚ time in milliseconds.
 
 ## Total Rows
-Use this function to know how many rows has in a sheet. Enter `SheetName` to get the total rows number.
+Use this function to know how many rows has in a sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216777727-e7f19e6d-df52-4e59-9a4e-be0384b54a06.png)
+
+Enter `SheetName` to get the total rows number.
+
+## Get Column
+Using this function you can get column values from any specific sheet.
+
+![image](https://user-images.githubusercontent.com/75406851/216778177-f6533abd-0316-49af-9138-03860f4f4eab.png)
+
+`sheetName` Enter the name of sheet from where you want to get data.\
+`columnName`  Enter the name of column to get values.\
+`max` Enter `0` to get all vaules from column. If you want limited values, so enter limit as integer number.
+
+![image](https://user-images.githubusercontent.com/75406851/216778386-d357cb4c-f51b-486b-876e-dca3c08026e2.png)
+
+`sheetName` it's return the given name of sheet.\
+`columnName` it's return the given name of column.\
+`values` it's return the values as list from given column.\
+`length` it's return the values size as integer.
 
 ## More extensions
 
