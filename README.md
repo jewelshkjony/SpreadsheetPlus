@@ -3,7 +3,7 @@ An awesome extension to read data from Spreadsheet by lighting speed ⚡
 
 ![Spreadsheet Plus](https://user-images.githubusercontent.com/75406851/216776569-d045850f-64f4-4aa2-9534-8ecebe614059.jpg)
 
-Spreadsheet Plus, this is an extended version of Spreadsheet extension. Using this extension you can get all of sheets values in a single click. This is not matter how many sheets have in your Spreadsheet project. This extension can get all values in few seconds, then you can call data by using extension functions even no internet. This extension also provide you offline support. Watch tutorial 📹 videos for better understand it's uses.
+Spreadsheet Plus, this is an extended version of <a href="https://github.com/jewelshkjony/SpreadSheets">Spreadsheet Extension</a>. Using this extension you can get all of sheets values in a single click. This is not matter how many sheets have in your Spreadsheet project. This extension can get all values in few seconds, then you can call data by using extension functions even no internet. This extension also provide you offline support. Watch tutorial 📹 videos for better understand it's uses.
 
 ## Extension Properties
 Set your spreadsheet project id before using this extension. You can get `SheetId` from url. Watch tutorial 📹 videos for better understanding.
@@ -16,7 +16,8 @@ Set your spreadsheet project id before using this extension. You can get `SheetI
 </table>
 
 ## Get All Sheets
-⚠ This is mandatory to `GetAllSheets` before using any other functions. When `GotAllSheets` event will be triggered it's means the extension is ready to work.
+⚠ This is mandatory to `GetAllSheets` before using any other functions.\
+When `GotAllSheets` event will be triggered it's means the extension is ready to work.
 
 ![image](https://user-images.githubusercontent.com/75406851/216777432-3136b9ce-5393-4bfa-9df0-a61b1c82f343.png)
 
