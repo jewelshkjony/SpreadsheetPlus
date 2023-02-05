@@ -1,5 +1,5 @@
 # SpreadsheetPlus Extension
-An awesome extension to read data from Spreadsheet by lighting speed ⚡
+An awesome extension to read data from Spreadsheet by Lightning speed ⚡
 
 ![Spreadsheet Plus](https://user-images.githubusercontent.com/75406851/216776569-d045850f-64f4-4aa2-9534-8ecebe614059.jpg)
 
