@@ -138,7 +138,8 @@ Using this function you can get all column names from any specific sheet.
 <img src="https://github.com/jewelshkjony/SpreadSheets/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.spreadsheetplus.aix</a> (51.9 KB) \
 <b>Version:</b> 1.0.0\
 <b>Price:</b> $15 USD <sub>(Fast Edition) - [Available to receive minor updates only.]</sub> \
-<b>Price:</b> $25 USD <sub>(Lighting Edition) - [Feel the lightning speed when data is loading. Available to receive minor and major updates.]</sub> \
+<b>Price:</b> $25 USD <sub>(Lighting Edition) - [Feel the⚡lightning speed when data is loading. Available to receive minor and major updates.]</sub> \
+<b>Price:</b> $35 USD <sub>(Custom Edition) - [More 🔐 secure and you can order me to customize the extension for your need.]</sub> \
 <b>Last amendment:</b> 04 February 2023\
 <b>Supported builder:</b> <a href="https://www.kodular.io/">Kodular</a>, <a href="https://niotron.com/">Niotron</a>, <a href="https://appzard.com/">AppZard</a>, <a href="https://androidbuilder.in/">AndroidBuilder</a>, <a href="http://ai2.appinventor.mit.edu/">App Inventor</a> and it's other distributions.
 
