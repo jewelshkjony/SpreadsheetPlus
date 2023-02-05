@@ -112,7 +112,7 @@ Using this function you can get filtered values from one specific column by othe
 `sheetName` it's return the given name of sheet.\
 `byColumn` it's return that given by column name.\
 `keyword` it's return the given keyword.\
-`fromColumn` it's return that given from column name.
+`fromColumn` it's return that given from column name.\
 `values` it's return the filtered values as list.\
 `positions` it's the original positions of filtered values.\
 `length` it's return the size of values as integer.
