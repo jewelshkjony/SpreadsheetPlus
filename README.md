@@ -15,7 +15,7 @@ Set your spreadsheet project id before using this extension. You can get `SheetI
   </tr>
 </table>
 
-## Get All Sheets
+## ⬇️ Get All Sheets
 ⚠ This is mandatory to `GetAllSheets` before using any other functions.\
 When `GotAllSheets` event will be triggered it's means the extension is ready to work.
 
@@ -26,14 +26,14 @@ When `GotAllSheets` event will be triggered it's means the extension is ready to
 `length` it's return the size of sheet names list.\
 `loadTime` it's return the data loading ⌚ time in milliseconds.
 
-## Total Rows
+## ⬇️ Total Rows
 Use this function to know how many rows has in a sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216777727-e7f19e6d-df52-4e59-9a4e-be0384b54a06.png)
 
 Enter `SheetName` to get the total rows number.
 
-## Get Column
+## ⬇️ Get Column
 Using this function you can get column values from any specific sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216778177-f6533abd-0316-49af-9138-03860f4f4eab.png)
@@ -49,7 +49,7 @@ Using this function you can get column values from any specific sheet.
 `values` it's return the values as list from given column.\
 `length` it's return the values size as integer.
 
-## Get Cell
+## ⬇️ Get Cell
 Using this function you can get cell value from any specific sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216778616-2944b435-1680-458d-993c-3eee9806e989.png)
@@ -65,7 +65,7 @@ Using this function you can get cell value from any specific sheet.
 `rowNumber` it's return the given row number.\
 `value` it's return the value of cell.
 
-## Get Row
+## ⬇️ Get Row
 Using this function you can get row values from any specific sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216778769-b8ea2d2d-8e4f-4216-9a61-f716f4e8c99e.png)
@@ -80,7 +80,7 @@ Using this function you can get row values from any specific sheet.
 `values` it's return the values from row.\
 `columnNames` it's return the column names for row values.
 
-## Search
+## 🔎 Search
 Using this function you can get filtered column values from any specific sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216778947-b79939a7-e5ce-4680-aa09-0ff13331adce.png)
@@ -98,7 +98,7 @@ Using this function you can get filtered column values from any specific sheet.
 `positions` it's the original positions of filtered values.\
 `length` it's return the size of values as integer.
 
-## Advance Search
+## 🔎 Advance Search
 Using this function you can get filtered values from one specific column by other column. Watch tutorial 📹 videos for better understanding.
 
 ![image](https://user-images.githubusercontent.com/75406851/216779233-8932a635-cc27-4986-a839-01b76d0ddfd4.png)
@@ -118,7 +118,7 @@ Using this function you can get filtered values from one specific column by othe
 `positions` it's the original positions of filtered values.\
 `length` it's return the size of values as integer.
 
-## Get Column Names
+## ⬇️ Get Column Names
 Using this function you can get all column names from any specific sheet.
 
 ![image](https://user-images.githubusercontent.com/75406851/216779573-fe850f4b-e08e-4227-986f-5cdf9e1654ee.png)
@@ -131,12 +131,27 @@ Using this function you can get all column names from any specific sheet.
 `columnNames` it's return the column names as list.\
 `length` it's return the size of column names as integer.
 
+## ⚠️ Failed
+
+It’s rises when the extension got any error.\
+Use function name variable to handle user activities.\
+And read error message for understanding the error reason.
+
+![image](https://user-images.githubusercontent.com/75406851/216978425-786f5732-1594-4f92-bdf9-c9f1c290aa90.png)
+
+`functionName` it’s return the name of function where got error.\
+`errorMessage` it’s return the error message as string.
+
+## 📹 Tutorial Videos ↓
+
+[![SpreadsheetPlus](http://img.youtube.com/vi/46Fe2-Z6TzM/0.jpg)](http://www.youtube.com/watch?v=46Fe2-Z6TzM)
+
 ## More extensions
 
 <a href="https://github.com/jewelshkjony?tab=repositories">See more extensions</a>
 
 ## Extension specifications:
-<img src="https://github.com/jewelshkjony/SpreadSheets/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.spreadsheetplus.aix</a> (51.9 KB) \
+<img src="https://github.com/jewelshkjony/SpreadSheets/raw/main/images/download.png"/> <a href="https://t.me/jewelshkjony">com.jewel.spreadsheetplus.aix</a> (51.4 KB) \
 <b>Version:</b> 1.0.0\
 <b>Price:</b> $15 USD <sub>(Fast Edition) - [Available to receive minor updates only.]</sub> \
 <b>Price:</b> $25 USD <sub>(Lighting Edition) - [Feel the⚡lightning speed when data is loading. Available to receive minor and major updates.]</sub> \
